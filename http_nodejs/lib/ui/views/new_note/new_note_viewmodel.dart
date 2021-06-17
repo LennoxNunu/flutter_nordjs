@@ -9,7 +9,7 @@ import 'package:http_nodejs/ui/views/new_note/new_note_view.form.dart';
 class NewNoteViewModel extends AuthenticationForm {
   final _navigationService = locator<NavigationService>();
   final _api = locator<Api>();
-  String errorText = ''; //TODO add error text
+  String errorText = '';
 
   // navigate to the HomePage Screen
   dynamic openHomePageViewBack({String giventoken, String userEmail}) {

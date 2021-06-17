@@ -141,9 +141,15 @@ class NewNoteView extends StatelessWidget with $NewNoteView {
                                 controller: descriptionController,
                               ),
                             ),
-                            SizedBox(
-                              height: 20,
-                            ),
+                            model.errorText == ''
+                                ? SizedBox(
+                                    height: 20,
+                                  )
+                                : Text(
+                                    model.errorText,
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 18),
+                                  ),
                             InkWell(
                               onTap: () {
                                 if (editingScreen == null) {
