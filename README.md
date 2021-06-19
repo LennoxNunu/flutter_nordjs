@@ -8,6 +8,8 @@ On the flutter side we will use http to connect to our api.
 We have uploaded all components for this application, the folder called http_nordjs is our flutter mobile application
 and the folder called express_api_mongodb is our api that will connect to cloud database(atlas mongodb).
 
+![HTTP-nodejs](https://user-images.githubusercontent.com/68849219/122631034-ab3efa80-d0c8-11eb-8366-df4f28b7101c.gif)
+
 ## Contributors
 Lennox Y Nunu <lennoxnunu@gmail.com>
 
